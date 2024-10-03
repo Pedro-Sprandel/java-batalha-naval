@@ -1,16 +1,16 @@
 public class Retorno {
     private final boolean sucesso;
-    private final String erro;
+    private final String mensagem;
 
-    public Retorno(boolean sucesso, String erro) {
+    public Retorno(boolean sucesso, String mensagem) {
         this.sucesso = sucesso;
-        this.erro = erro;
+        this.mensagem = mensagem;
     }
 
     public boolean isSucesso() {
         return sucesso;
     }
-    public String getErro() {
-        return erro;
+    public String getMensagem() {
+        return mensagem;
     }
 }
